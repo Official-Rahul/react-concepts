@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import UseState from "./topics/hooks/useState";
+import UseEffect from "./topics/hooks/useEffect";
 
 export class App extends Component {
   render() {
@@ -14,6 +15,7 @@ export class App extends Component {
           </nav>
           <Routes>
             <Route path="/useState" element={<UseState />} />
+            <Route path="/useEffect" element={<UseEffect />} />
           </Routes>
         </Router>
       </div>
