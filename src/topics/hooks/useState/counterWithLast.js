@@ -25,7 +25,7 @@ function CounterWithLast() {
   }
 
   return (
-    <div style={{textAlign: "center", marginTop: "50px"}}>
+    <div style={{textAlign: "center", marginTop: "20px"}}>
       <h2>Count: {count}</h2>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>

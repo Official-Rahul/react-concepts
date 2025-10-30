@@ -14,13 +14,13 @@ function Arrays() {
   }
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
       <h2>Arrays</h2>
       <input type="text" value={item} onChange={itemChange} />
       <button onClick={addItem}>Add</button>
       <ul>
         {toLearn.map((entry) => (
-          <li>{entry}</li>
+          <li key={entry}>{entry}</li>
         ))}
       </ul>
     </div>

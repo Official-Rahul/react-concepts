@@ -27,7 +27,7 @@ function CounterWithPrevAndFunction() {
     setCount(prev=>prev-1);
   }
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
       <h2>Count: {count}</h2>
       <button onClick={increment5}>Increment 5</button>
       <button onClick={() => setCount(count + 1)}>Increment</button>

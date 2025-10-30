@@ -11,7 +11,7 @@ function Object() {
     }));
   }
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
+    <div style={{ textAlign: "center", marginTop: "20px" }}>
       <input name="name" type="text" value={obj.name} onChange={change} />
       <input name="age" type="number" value={obj.age} onChange={change} />
       <pre>{JSON.stringify(obj)}</pre>

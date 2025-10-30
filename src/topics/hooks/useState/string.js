@@ -11,7 +11,7 @@ function String() {
   }
 
   return (
-    <div style={{textAlign: "center", marginTop: "50px"}}>
+    <div style={{textAlign: "center", marginTop: "20px"}}>
       <label>Name</label>
       <input value={name} onChange={nameChange} />
       <button onClick={showName}>Show</button>
